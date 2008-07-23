@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layman>
+  <overlay name="idlebox"
+           contact="repo@idlebox.net"
+           type="svn" src="http://idlebox.net/repo/gentoo"
+           status = "unofficial">
+    <link>http://idlebox/repo/</link>
+    <description>Ebuilds for programs from idlebox.net</description>
+  </overlay>
+</layman>
