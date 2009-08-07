@@ -7,8 +7,8 @@ WX_GTK_VER="2.8"
 inherit eutils wxwidgets flag-o-matic fdo-mime
 
 DESCRIPTION="Text editor with built-in strong cryptographic functions"
-HOMEPAGE="http://idlebox.net/2008/cryptote/"
-SRC_URI="http://idlebox.net/2008/cryptote/${P}.tar.bz2"
+HOMEPAGE="http://idlebox.net/2009/cryptote/"
+SRC_URI="http://idlebox.net/2009/cryptote/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"

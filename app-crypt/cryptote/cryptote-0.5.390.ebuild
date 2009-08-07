@@ -1,4 +1,4 @@
-# Copyright 2008 Timo Bingmann
+# Copyright 2009 Timo Bingmann
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/media-sound/audacity/audacity-1.3.5.ebuild,v 1.4 2008/07/15 16:23:42 ken69267 Exp $
 
@@ -6,7 +6,7 @@ WX_GTK_VER="2.8"
 
 inherit eutils wxwidgets flag-o-matic fdo-mime
 
-DESCRIPTION="Text editor with built-in strong cryptographic functions"
+DESCRIPTION="Text editor with integrated strong cryptography"
 HOMEPAGE="http://idlebox.net/2009/cryptote/"
 SRC_URI="http://idlebox.net/2009/cryptote/${P}.tar.bz2"
 
@@ -32,7 +32,11 @@ src_compile() {
 	append-flags -Wno-strict-aliasing
 
         econf || die "econf failed"
-        emake  || die "emake failed"
+        emake || die "emake failed"
+}
+
+src_test() {
+	emake check || die "emake check failed"
 }
 
 src_install() {
