@@ -1,6 +1,5 @@
 # Copyright 2009 Timo Bingmann
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/audacity/audacity-1.3.5.ebuild,v 1.4 2008/07/15 16:23:42 ken69267 Exp $
 
 WX_GTK_VER="2.8"
 
@@ -12,7 +11,7 @@ SRC_URI="http://idlebox.net/2009/cryptote/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86"
+KEYWORDS="x86 amd64"
 IUSE=""
 
 DEPEND="=x11-libs/wxGTK-2.8*
