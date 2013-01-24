@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <layman>
-  <overlay name="idlebox"
-           contact="repo@idlebox.net"
-           type="svn" src="http://idlebox.net/repo/gentoo"
+  <overlay name="panthema"
+           contact="repo@panthema.net"
+           type="svn" src="http://panthema.net/repo/gentoo"
            status = "unofficial">
-    <link>http://idlebox/repo/</link>
-    <description>Ebuilds for programs from idlebox.net</description>
+    <link>http://panthema.net/repo/</link>
+    <description>Ebuilds for programs from panthema.net</description>
   </overlay>
 </layman>
