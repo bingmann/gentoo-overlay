@@ -3,11 +3,11 @@
 
 WX_GTK_VER="2.8"
 
-inherit eutils wxwidgets flag-o-matic fdo-mime subversion
+inherit eutils wxwidgets flag-o-matic fdo-mime git-2
 
 DESCRIPTION="Text editor with integrated strong cryptography"
 HOMEPAGE="http://idlebox.net/2009/cryptote/"
-ESVN_REPO_URI="http://idlebox.net/2009/cryptote/svn/trunk"
+EGIT_REPO_URI="https://github.com/bingmann/cryptote"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -20,7 +20,7 @@ DEPEND="=x11-libs/wxGTK-2.8*
 
 src_unpack() {
 	need-wxwidgets unicode
-	subversion_src_unpack
+	git-2_src_unpack
 }
 
 src_compile() {
