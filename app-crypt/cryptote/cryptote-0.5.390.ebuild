@@ -1,6 +1,7 @@
 # Copyright 2009 Timo Bingmann
 # Distributed under the terms of the GNU General Public License v2
 
+EAPI=4
 WX_GTK_VER="2.8"
 
 inherit eutils wxwidgets flag-o-matic fdo-mime

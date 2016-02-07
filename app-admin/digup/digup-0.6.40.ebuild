@@ -1,6 +1,7 @@
 # Copyright 2009 Timo Bingmann
 # Distributed under the terms of the GNU General Public License v2
 
+EAPI=4
 inherit eutils
 
 DESCRIPTION="Tool to read, verify and update MD5 or SHA digest files."
