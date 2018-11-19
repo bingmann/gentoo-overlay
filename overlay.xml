@@ -2,9 +2,9 @@
 <layman>
   <overlay name="panthema"
            contact="repo@panthema.net"
-           type="svn" src="http://panthema.net/repo/gentoo"
+           type="svn" src="https://github.com/bingmann/gentoo-overlay.git/trunk"
            status = "unofficial">
-    <link>http://panthema.net/repo/</link>
+    <link>https://github.com/bingmann/gentoo-overlay.git</link>
     <description>Ebuilds for programs from panthema.net</description>
   </overlay>
 </layman>
